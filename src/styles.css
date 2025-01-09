@@ -2,10 +2,11 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    background-color: gray;
+    background-color: rgb(170, 176, 182);
     width: 100vw;
     height: 100vh;
 }
@@ -18,5 +19,49 @@ body {
     top: 0px;
     left: 0px;
     z-index: -1;
-    opacity: 0.5;
+    opacity: 0.3;
+}
+
+#welcome-poster {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.about {
+    display: flex;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 10px 200px 10px 200px;
+    font-weight: 800;
+
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    align-items: center;
+}
+
+nav {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(4, 100px);
+    gap: 100px;
+    height: 40px;
+}
+
+button {
+    background-color: white;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+
+button:hover {
+    border: 3px black solid;
+    transition-duration: 100ms;
+    font-weight: 600;
+    background-color: lightgray;
 }
