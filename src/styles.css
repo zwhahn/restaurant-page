@@ -65,3 +65,14 @@ button:hover {
     font-weight: 600;
     background-color: lightgray;
 }
+
+.menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.menu {
+    list-style-type: none;
+}
