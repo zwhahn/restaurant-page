@@ -2,6 +2,7 @@ import "./styles.css";
 import { homePage } from "./home.js";
 import { menuPage } from "./menu.js";
 import { aboutPage } from "./about.js";
+import { locationPage } from "./location.js";
 
 // Show home page when first loaded
 homePage();
@@ -17,3 +18,4 @@ const aboutBtn = document.getElementById("about-btn");
 aboutBtn.addEventListener("click", () => aboutPage());
 
 const locationBtn = document.getElementById("location-btn");
+locationBtn.addEventListener("click", () => locationPage());

@@ -10,7 +10,7 @@ export const aboutPage = function() {
     const about = document.createElement("div");
     about.innerHTML = `At Aster Cafe, we believe great food starts with great ingredients, 
         which is why we proudly source our coffee beans, produce, and dairy from local farms 
-        committed to sustainable and ethical practices. Our eggs come from free-range hens at 
+        committaed to sustainable and ethical practices. Our eggs come from free-range hens at 
         Meadowbrook Farms, our seasonal vegetables are hand-picked from Willow Creek Organics, 
         and our milk is fresh from Silver Ridge Dairy. By working directly with these small, 
         family-run farms, we ensure every cup of coffee, every pastry, and every pizza is made 
